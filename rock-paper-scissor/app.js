@@ -7,7 +7,8 @@ const rock = document.getElementById('rock')
 const paper = document.getElementById('paper')
 const scissor = document.getElementById('scissor')
 
-
+const mole = 10;
+console.log(mole);
 function compChoice() {
 	let choice = ['rock', 'paper', 'scissor']
 	chosed = choice[Math.floor(Math.random() * 3)]
